@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem; /* Adds padding around the header */
+  background: linear-gradient(to right, #4a90e2, #61dafb); /* Optional: Adds a gradient background */
+  color: white;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 3rem; /* Increase font size for the header text */
+  margin-bottom: 1.5rem; /* Space between header text and navbar */
+}
+
+.header nav {
+  display: flex;
+  gap: 2rem; /* Adds spacing between nav items */
+}
+
+.header nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem; /* Increase font size for nav items */
+  padding: 0.5rem 1rem; /* Adds padding to nav items */
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.header nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Adds hover effect */
+}
+
+.about, .projects, .contact {
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; 
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    width: 90%; 
+  }
+}
+
+
+.project-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.about-me-container {
+  width: 80%; /* Limit the width to 80% of the page */
+  max-width: 800px; /* Prevent it from getting too wide */
+  margin: 0 auto; /* Center the content */
+  padding: 2rem; /* Add padding around the content */
+  text-align: left; /* Left-align the text */
+}
+
+.about-me-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-me-container p {
+  font-size: 1.125rem;
+  line-height: 1.6; /* Add line-height for readability */
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Center the entire section */
+  justify-content: left; /* Center items vertically */
+  text-align: left; /* Left-align the content inside */
+  padding: 2rem;
+  width: 80%; /* Optional: Adjust width for better control */
+  max-width: 600px; /* Optional: Limit the maximum width */
+  margin: 0 auto; /* Center the section horizontally */
+}
+
+.contact p {
+  display: flex;
+  align-items: left;
+  margin: 10px 0;
+}
+
+.contact a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact a:hover {
+  color: #61dafb;
+}
+
+.contact svg {
+  font-size: 1.5rem; /* Adjust the size of icons */
+  color: #4a90e2;   /* You can change the icon color */
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+}
+

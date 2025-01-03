@@ -1,0 +1,56 @@
+.project-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 45%; /* Make each card take up 45% of the available width */
+  max-width: 500px; /* Optional: Limit maximum width */
+  padding: 2rem; /* Increased padding */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  margin-bottom: 2rem; /* Add space below cards */
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.project-card img {
+  width: 100%; /* Ensure image fills card */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1.5rem; /* Add space below the image */
+}
+
+.project-card h3 {
+  margin: 1rem 0;
+  font-size: 1.75rem; /* Increased font size */
+}
+
+.project-card p {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+}
+
+.view-project-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #007bff; /* Blue border */
+  background-color: transparent; /* Transparent background */
+  color: #007bff; /* Blue text */
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.125rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.view-project-btn:hover {
+  background-color: #007bff; /* Blue background on hover */
+  color: white; /* White text on hover */
+}
+
+.view-project-btn:active {
+  background-color: #0056b3; /* Darker blue on click */
+  border-color: #0056b3; /* Darker border on click */
+}

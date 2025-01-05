@@ -9,10 +9,10 @@ const App = () => {
   const [projects, setProjects] = useState([
     {
       id: 1,
-      title: 'Sales Dashboard Analysis',
-      description: 'A dashboard for visualizing sales data using Tableau Deserunt velit cillum nisi Lorem commodo aliqua amet qui do velit. Laborum velit exercitation consequat non veniam consectetur dolor.Est ullamco ut voluptate elit. Culpa ipsum qui est duis ',
-      image: '/images/sales_dashboard.png',
-      githubLink: 'https://github.com/brijeshgupta8/QR-Code-Management',
+      title: 'Ecommerce Sales Dashboard Analysis',
+      description: 'An Interactive Power BI dashboard analyzes sales performance and provides insights into various metrics like profit, sales quantity, and customer behavior. It includes interactive filters for deeper data exploration.',
+      image: '/images/sales_dashboard_preview.png',
+      githubLink: 'https://github.com/brijeshgupta8/Ecommerce-sales-dashboard',
     },
     {
       id: 2,

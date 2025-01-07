@@ -9,46 +9,33 @@ const App = () => {
   const [projects, setProjects] = useState([
     {
       id: 1,
-      title: 'Ecommerce Sales Dashboard Analysis',
+      title: 'Power BI Ecommerce Sales Dashboard Analysis',
       description: 'An Interactive Power BI dashboard analyzes sales performance and provides insights into various metrics like profit, sales quantity, and customer behavior. It includes interactive filters for deeper data exploration.',
       image: '/images/sales_dashboard_preview.png',
       githubLink: 'https://github.com/brijeshgupta8/Ecommerce-sales-dashboard',
     },
     {
       id: 2,
-      title: 'Sales Dashboard Analysis',
-      description: 'A dashboard for visualizing sales data using Tableau Deserunt velit cillum nisi Lorem commodo aliqua amet qui do velit. Laborum velit exercitation consequat non veniam consectetur dolor.Est ullamco ut voluptate elit. Culpa ipsum qui est duis ',
-      image: '/images/sales_dashboard.png',
-      githubLink: 'https://github.com/yourusername/sales-dashboard',
+      title: 'Excel Placement Data Analysis',
+      description: 'This project analyzes placement data to provide actionable insights for improving placement rates and salary packages across various student demographics, degree specializations, and career fields',
+      image: '/images/Excel Dashboard.PNG',
+      githubLink: 'https://github.com/brijeshgupta8/Placement-Data-Analysis-using-Excel',
     },
     {
       id: 3,
-      title: 'Sales Dashboard Analysis',
-      description: 'A dashboard for visualizing sales data using Tableau Deserunt velit cillum nisi Lorem commodo aliqua amet qui do velit. Laborum velit exercitation consequat non veniam consectetur dolor.Est ullamco ut voluptate elit. Culpa ipsum qui est duis ',
-      image: '/images/sales_dashboard.png',
-      githubLink: 'https://github.com/yourusername/sales-dashboard',
+      title: 'Customer Churn Analysis using Python',
+      description: 'This project analyzes customer churn patterns to identify key factors influencing churn and provide actionable insights for retention strategies. The analysis uses Python and explores data on payment methods, contract types, tenure, demographics, and internet service types.',
+      image: '/images/Python data analysis image.PNG',
+      githubLink: 'https://github.com/brijeshgupta8/Customer-Churn-Analysis-using-Python',
     },
     {
       id: 4,
-      title: 'Customer Segmentation',
-      description: 'Machine learning project for segmenting customers based on purchasing behavior Fugiat qui eu mollit duis pariatur tempor irure aliqua mollit non elit occaecat esse incididunt. Reprehenderit sunt aliqua culpa anim excepteur magna deserunt non .',
-      image: '/images/customer_segmentation.png',
-      githubLink: 'https://github.com/yourusername/customer-segmentation',
-    },
-    {
-      id: 5,
-      title: 'Sales Dashboard Analysis',
-      description: 'A dashboard for visualizing sales data using Tableau Deserunt velit cillum nisi Lorem commodo aliqua amet qui do velit. Laborum velit exercitation consequat non veniam consectetur dolor.Est ullamco ut voluptate elit. Culpa ipsum qui est duis ',
-      image: '/images/sales_dashboard.png',
-      githubLink: 'https://github.com/yourusername/sales-dashboard',
-    },
-    {
-      id: 6,
-      title: 'Sales Dashboard Analysis',
-      description: 'A dashboard for visualizing sales data using Tableau Deserunt velit cillum nisi Lorem commodo aliqua amet qui do velit. Laborum velit exercitation consequat non veniam consectetur dolor.Est ullamco ut voluptate elit. Culpa ipsum qui est duis ',
-      image: '/images/sales_dashboard.png',
-      githubLink: 'https://github.com/brijeshgupta8/QR-Code-Management',
+      title: 'Music Store data analysis using SQL' ,
+      description: 'This project, Music Store Data Analysis, involves analyzing data from a music store database to extract insights about sales, customers, employees, and tracks. The database schema is designed to store information about customers, employees, invoices, playlists, tracks, artists, and more, enabling comprehensive analysis of the store\'s operations.',
+      image: '/images/MusicDatabaseSchema.png',
+      githubLink: 'https://github.com/brijeshgupta8/SQL-music-store-analysis',
     }
+   
   ]);
 
   return (
